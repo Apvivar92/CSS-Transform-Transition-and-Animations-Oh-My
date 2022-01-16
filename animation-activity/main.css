@@ -20,6 +20,12 @@ body  {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  filter: none;
+}
+
+.hamburger:hover{
+  filter:none;
+  transform:rotate(360deg)
 }
 
 .hamburger div {

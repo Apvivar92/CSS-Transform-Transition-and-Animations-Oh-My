@@ -27,12 +27,16 @@ nav {
   opacity: 1;
 }
 
+div.hamburger:hover{
+  transform: rotate(360deg);
+}
+
 @keyframes top {
   from {
     transform: none;
   }
   to {
-    transform: rotate(45deg) translateX(21px) translateY(23px);
+    transform: rotate(950deg) translateX(-24px) translateY(-21px);
   }
 }
 
@@ -51,6 +55,6 @@ nav {
     transform: none;
   }
   to {
-    transform: rotate(-45deg) translateX(25px) translateY(-24px);
+    transform: rotate(852deg) translateX(-24px) translateY(23px); 
   }
 }
